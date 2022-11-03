@@ -106,11 +106,26 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "48d6a08a-2b81-4963-9bd7-67dd8b55ba3b": {
+      "type": "column-inverted-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/necklaces-hanging-on-black.jpg",
+        "image_2": "shopify:\/\/shop_images\/mens-fashion-watch.jpg",
+        "position": "default",
+        "text": "NEW",
+        "button_label_1": "SHOP NOW",
+        "button_link_1": "shopify:\/\/collections",
+        "text_2": "JEWELRY",
+        "button_label_2": "SHOP NOW",
+        "button_link_2": "shopify:\/\/collections\/all"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "collage"
+    "collage",
+    "48d6a08a-2b81-4963-9bd7-67dd8b55ba3b"
   ]
 }
