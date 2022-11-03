@@ -71,10 +71,10 @@
         "position": "invert",
         "text": "WEDDING",
         "button_label_1": "SHOP NOW",
-        "button_link_1": "",
+        "button_link_1": "shopify:\/\/collections\/all",
         "text_2": "WATCHES",
         "button_label_2": "SHOP NOW",
-        "button_link_2": ""
+        "button_link_2": "shopify:\/\/collections\/all"
       }
     },
     "featured_collection": {
