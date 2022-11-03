@@ -105,14 +105,14 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
@@ -159,41 +159,34 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
+          "e7add0f5-1932-4716-b7ba-ce87652907d6": {
+            "type": "image",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "image": "shopify:\/\/shop_images\/image.png",
+              "image_width": 200,
+              "alignment": "center"
             }
           },
-          "footer-1": {
+          "edf55496-f9ce-4c38-aa5a-62c14613adce": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
+              "heading": "OUR COMPANY",
               "menu": "footer"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "e7add0f5-1932-4716-b7ba-ce87652907d6",
+          "edf55496-f9ce-4c38-aa5a-62c14613adce"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "JOIN OUR NEWSLETTER",
           "show_social": true,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false,
           "margin_top": 48,
           "padding_top": 36,
           "padding_bottom": 36
