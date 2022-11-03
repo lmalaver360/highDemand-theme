@@ -159,14 +159,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "e7add0f5-1932-4716-b7ba-ce87652907d6": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/image.png",
-              "image_width": 200,
-              "alignment": "center"
-            }
-          },
           "730c6c98-1954-4540-8ddc-cf95d4977b6b": {
             "type": "text",
             "settings": {
@@ -205,6 +197,7 @@
         ],
         "settings": {
           "color_scheme": "accent-1",
+          "image": "shopify:\/\/shop_images\/image.png",
           "newsletter_enable": true,
           "newsletter_heading": "JOIN OUR NEWSLETTER",
           "show_social": true,
