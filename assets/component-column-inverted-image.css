@@ -37,6 +37,7 @@
   padding: 0;
   position: relative;
   padding-bottom: 5px;
+  text-decoration: none;
 }
 .columnInvertedImage__container-item--info a::after {
     content: " ";

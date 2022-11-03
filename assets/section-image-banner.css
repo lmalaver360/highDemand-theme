@@ -422,6 +422,7 @@
   padding: 0;
   position: relative;
   padding-bottom: 5px;
+  text-decoration: none
 }
 
 .banner__buttons a::after{
