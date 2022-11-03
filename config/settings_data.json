@@ -167,17 +167,41 @@
               "alignment": "center"
             }
           },
+          "730c6c98-1954-4540-8ddc-cf95d4977b6b": {
+            "type": "text",
+            "settings": {
+              "heading": "VIST OUR STORE",
+              "subtext": "<p>53 NE 40th St, Miami, FL 3313<br\/>Phone (786) 200-1428<\/p>"
+            }
+          },
           "edf55496-f9ce-4c38-aa5a-62c14613adce": {
             "type": "link_list",
             "settings": {
               "heading": "OUR COMPANY",
               "menu": "footer"
             }
+          },
+          "a62161c3-4b1c-4cd2-975e-d9ca12417fd0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "RESOURCES",
+              "menu": "resources"
+            }
+          },
+          "dbcd41a0-3e1a-49d6-b5b0-e73d0d32772e": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "terms-and-conditions"
+            }
           }
         },
         "block_order": [
           "e7add0f5-1932-4716-b7ba-ce87652907d6",
-          "edf55496-f9ce-4c38-aa5a-62c14613adce"
+          "730c6c98-1954-4540-8ddc-cf95d4977b6b",
+          "edf55496-f9ce-4c38-aa5a-62c14613adce",
+          "a62161c3-4b1c-4cd2-975e-d9ca12417fd0",
+          "dbcd41a0-3e1a-49d6-b5b0-e73d0d32772e"
         ],
         "settings": {
           "color_scheme": "accent-1",
