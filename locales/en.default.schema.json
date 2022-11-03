@@ -3048,6 +3048,9 @@
         "button_link_2": {
           "label": "Second button link"
         }
+      },
+      "presets": {
+        "name": "Column inverted image"
       }
     }
   }
