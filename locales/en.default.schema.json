@@ -3011,6 +3011,44 @@
       "presets": {
         "name": "Collapsible content"
       }
+    },
+    "column-inverted-image": {
+      "name": "column inverted image",
+      "settings": {
+        "image": {
+          "label": "First image"
+        },
+        "image_2": {
+          "label": "Second image"
+        },
+        "position": {
+          "label": "Position",
+          "options__1": {
+            "label": "default"
+          },
+          "options__2": {
+            "label": "invert"
+          }
+        },
+        "text": {
+          "label": "First title"
+        },
+        "button_label_1": {
+          "label": "First button label"
+        },
+        "button_link_1": {
+          "label": "First button link"
+        },
+        "text_2": {
+          "label": "Second title"
+        },
+        "button_label_2": {
+          "label": "Second button label"
+        },
+        "button_link_2": {
+          "label": "Second button link"
+        }
+      }
     }
   }
 }
