@@ -38,7 +38,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/makeup-and-jewelry.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
