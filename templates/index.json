@@ -90,70 +90,18 @@
         "columns_desktop": 2,
         "full_width": true,
         "show_view_all": false,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 28,
+        "padding_top": 60,
         "padding_bottom": 36
-      }
-    },
-    "d2f76221-832e-42fd-94ba-b44e2904a18b": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16082471911623__d2f76221-832e-42fd-94ba-b44e2904a18b-1667572093deb4d97b-0": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16082471911623__d2f76221-832e-42fd-94ba-b44e2904a18b-1667572093deb4d97b-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16082471911623__d2f76221-832e-42fd-94ba-b44e2904a18b-1667572093deb4d97b-0",
-        "template--16082471911623__d2f76221-832e-42fd-94ba-b44e2904a18b-1667572093deb4d97b-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
       }
     }
   },
@@ -161,7 +109,6 @@
     "image_banner",
     "48d6a08a-2b81-4963-9bd7-67dd8b55ba3b",
     "9417d251-d395-40ae-a705-f4083dd2a420",
-    "featured_collection",
-    "d2f76221-832e-42fd-94ba-b44e2904a18b"
+    "featured_collection"
   ]
 }
