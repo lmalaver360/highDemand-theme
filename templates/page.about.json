@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/makeup-and-jewelry.jpg",
+        "image": "shopify:\/\/shop_images\/necklaces-hanging-on-black.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -47,9 +47,66 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "19f66e5d-4579-4165-93b1-f43bc803092a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16083768213703__19f66e5d-4579-4165-93b1-f43bc803092a-1667589031339c7d17-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/busy-hands-playing-with-white-dough.jpg",
+            "title": "Our Mission",
+            "text": "<p><a href=\"\/pages\/faq\" title=\"FAQ\">LEARN MORE<\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16083768213703__19f66e5d-4579-4165-93b1-f43bc803092a-1667589031339c7d17-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tall-white-building-with-rust-colored-water-in-front.jpg",
+            "title": "Visit Our Store",
+            "text": "<p><a href=\"\/pages\/faq\" title=\"FAQ\">LEARN MORE<\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16083768213703__19f66e5d-4579-4165-93b1-f43bc803092a-1667589031339c7d17-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4309_1.jpg",
+            "title": "Careers at High Demand",
+            "text": "<p><a href=\"\/pages\/faq\" title=\"FAQ\">LEARN MORE<\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16083768213703__19f66e5d-4579-4165-93b1-f43bc803092a-1667589031339c7d17-0",
+        "template--16083768213703__19f66e5d-4579-4165-93b1-f43bc803092a-1667589031339c7d17-1",
+        "template--16083768213703__19f66e5d-4579-4165-93b1-f43bc803092a-1667589031339c7d17-2"
+      ],
+      "settings": {
+        "title": "ABOUT HIGH DEMAND",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "19f66e5d-4579-4165-93b1-f43bc803092a"
   ]
 }
