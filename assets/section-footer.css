@@ -201,6 +201,7 @@
 
 .footer__list-social.list-social {
   justify-content: flex-start;
+  margin-top: 1rem;
 }
 
 .footer-block__newsletter {
@@ -214,6 +215,11 @@
 
 .newsletter-form__field-wrapper .field input{
   background-color: transparent !important;
+}
+
+.newsletter-form__field-wrapper .field::after{
+  box-shadow: none !important;
+  border-bottom: 1px solid white
 }
 
 @media screen and (min-width: 750px) {
