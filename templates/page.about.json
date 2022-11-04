@@ -90,6 +90,8 @@
       "settings": {
         "title": "ABOUT HIGH DEMAND",
         "heading_size": "h1",
+        "heading_alignment": "center",
+        "full_layout": true,
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 3,
