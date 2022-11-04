@@ -3065,12 +3065,15 @@
         "name": "Column inverted image"
       }
     },
-    "instagram-block": {
+    "instagram": {
       "name": "Instagram",
       "selector": {
         "heading": {
           "label": "Heading"
         }
+      },
+      "presets": {
+        "name": "Instagram block"
       }
     }
   }
