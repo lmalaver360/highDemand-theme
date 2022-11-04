@@ -2967,3 +2967,10 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+[data-fulllayout="true"]{
+  width: 95%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
