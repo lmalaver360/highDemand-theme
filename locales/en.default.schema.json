@@ -3025,7 +3025,7 @@
       }
     },
     "column-inverted-image": {
-      "name": "column inverted image",
+      "name": "Column inverted image",
       "settings": {
         "image": {
           "label": "First image"
@@ -3063,6 +3063,14 @@
       },
       "presets": {
         "name": "Column inverted image"
+      }
+    },
+    "instagram-block": {
+      "name": "Instagram",
+      "selector": {
+        "heading": {
+          "label": "Heading"
+        }
       }
     }
   }
