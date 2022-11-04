@@ -154,11 +154,66 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "5389fc56-4296-4f50-83cb-6d5734a7ab8d": {
+      "type": "image-with-text",
+      "blocks": {
+        "b06da50e-fa44-4417-a7e0-969fb8d273e8": {
+          "type": "caption",
+          "settings": {
+            "caption": "OUR COMMITMENT",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "template--16083768213703__5389fc56-4296-4f50-83cb-6d5734a7ab8d-166758903132e5ac2d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorem Ipsum",
+            "heading_size": "h1"
+          }
+        },
+        "template--16083768213703__5389fc56-4296-4f50-83cb-6d5734a7ab8d-166758903132e5ac2d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16083768213703__5389fc56-4296-4f50-83cb-6d5734a7ab8d-166758903132e5ac2d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b06da50e-fa44-4417-a7e0-969fb8d273e8",
+        "template--16083768213703__5389fc56-4296-4f50-83cb-6d5734a7ab8d-166758903132e5ac2d-0",
+        "template--16083768213703__5389fc56-4296-4f50-83cb-6d5734a7ab8d-166758903132e5ac2d-1",
+        "template--16083768213703__5389fc56-4296-4f50-83cb-6d5734a7ab8d-166758903132e5ac2d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/open-timepiece-exposing-cogs-and-gear-wheels.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "image_banner",
     "19f66e5d-4579-4165-93b1-f43bc803092a",
-    "6fcfbae5-4cea-4618-99f0-40403e835fc5"
+    "6fcfbae5-4cea-4618-99f0-40403e835fc5",
+    "5389fc56-4296-4f50-83cb-6d5734a7ab8d"
   ]
 }
