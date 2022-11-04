@@ -2255,6 +2255,15 @@ input[type='checkbox'] {
   align-items: center;
 }
 
+.highDemand-header{
+  padding: 2rem clamp(1rem,3.5vw,4rem);
+    position: relative;
+}
+
+.highDemand-header .list-menu__item{
+  //font-size: 2rem;
+}
+
 @media screen and (min-width: 990px) {
   .header--top-left,
   .header--middle-left:not(.header--has-menu) {
