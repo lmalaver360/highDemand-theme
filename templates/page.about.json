@@ -306,6 +306,16 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "7ab3402e-4658-4ad8-9922-bb1df0752717": {
+      "type": "instagram",
+      "settings": {
+        "heading": "FOLLOW US ON INSTAGRAM",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -314,6 +324,7 @@
     "6fcfbae5-4cea-4618-99f0-40403e835fc5",
     "5389fc56-4296-4f50-83cb-6d5734a7ab8d",
     "64f89c57-c720-4e15-ba2d-48097e5e38f4",
-    "b83e6f86-cff1-400d-9c95-fa690fafc126"
+    "b83e6f86-cff1-400d-9c95-fa690fafc126",
+    "7ab3402e-4658-4ad8-9922-bb1df0752717"
   ]
 }
