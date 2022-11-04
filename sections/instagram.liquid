@@ -16,8 +16,8 @@
 
 <div class="instagramBlock section-{{ section.id }}-padding">
   <div class="instagramBlock__title">
-    {%- if section.settings.title != blank -%}
-      <h2 style="text-align: {{ section.settings.heading_alignment }};" class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
+    {%- if section.settings.heading != blank -%}
+      <h2 style="text-align: {{ section.settings.heading_alignment }};" class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
     {%- endif -%}
   </div>
   <div class="instagramBlock__images js-instagram-container"></div>
@@ -51,7 +51,7 @@
         "type": "text",
         "id": "heading",
         "label": "t:sections.instagram.settings.heading.label",
-        "default": "Collapsible content"
+        "default": "Follow us"
       },
       {
         "type": "select",
