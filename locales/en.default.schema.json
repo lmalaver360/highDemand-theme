@@ -3067,7 +3067,7 @@
     },
     "instagram": {
       "name": "Instagram",
-      "selector": {
+      "settings": {
         "heading": {
           "label": "Heading"
         }
