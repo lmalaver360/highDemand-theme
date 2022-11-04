@@ -2261,7 +2261,7 @@ input[type='checkbox'] {
 }
 
 .highDemand-header .list-menu__item{
-  //font-size: 2rem;
+  /* //font-size: 2rem; */
 }
 
 @media screen and (min-width: 990px) {
@@ -2763,7 +2763,7 @@ details-disclosure > details {
 
 .badge {
   border: 1px solid transparent;
-  border-radius: var(--badge-corner-radius);
+  /* border-radius: var(--badge-corner-radius); */
   display: inline-block;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
@@ -2774,6 +2774,7 @@ details-disclosure > details {
   border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
   color: rgb(var(--color-foreground));
   word-break: break-word;
+  text-transform: uppercase;
 }
 
 .gradient {

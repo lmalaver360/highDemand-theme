@@ -78,3 +78,70 @@
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
 }
+
+.highDemand-collection .card__content{
+  text-align: center;
+}
+
+.highDemand-collection .card-information{
+  text-align: center;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
+.highDemand-collection .card-wrapper:hover{
+  border: 1px solid black;
+}
+.highDemand-collection .card-wrapper:hover .card-information{
+  opacity: 1;
+}
+.highDemand-collection .underline-links-hover a{
+  text-transform:  uppercase;
+  transition: all .3s ease-in-out;
+  padding: 0 2rem 5px;
+
+}
+.highDemand-collection .underline-links-hover:hover a{
+  text-decoration: none;
+  width: max-content;
+  position: relative;
+  margin: 0 auto;
+}
+
+.highDemand-collection .underline-links-hover:hover a::before{
+  content:"";
+  width: 100%;
+  height: 1px;
+  background: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.highDemand-collection .slider-component-full-width ul{
+    width: 90%;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.highDemand-collection .slider-buttons{
+  position: absolute;
+    width: 100%;
+    top: 50%;
+    justify-content:space-between;
+}
+.highDemand-collection .slider-button .icon{
+  height: auto;
+}
+
+.highDemand-collection .slider-buttons .slider-counter{
+  display: none;
+}
+
+.highDemand-collection .grid__item{
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.highDemand-collection .slider-component-full-width .slider--desktop:after{
+  padding-left: 0;
+}
