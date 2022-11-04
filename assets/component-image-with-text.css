@@ -327,3 +327,15 @@
     margin-left: 0;
   }
 }
+
+
+.image-with-text[data-fulllayout="true"] {
+  width: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+  .image-with-text[data-fulllayout="true"] .image-with-text__content{
+    margin: 0 clamp(0rem, 10vw, 10rem);
+  }
+  
+}
