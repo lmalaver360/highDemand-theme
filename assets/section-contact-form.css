@@ -37,3 +37,15 @@
     grid-column-gap: 2rem;
   }
 }
+
+.contact h2{
+  margin-bottom: 10px;
+}
+
+.contact .contact__button{
+  display: flex;
+  justify-content: center;
+}
+.contact .contact__button button{
+  text-transform: uppercase;
+}
