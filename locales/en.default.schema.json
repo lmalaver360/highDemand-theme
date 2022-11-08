@@ -1061,6 +1061,9 @@
           },
           "info": "For best results, use an image with a 3:2 aspect ratio. [Learn more](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
+        "icon_scroll": {
+          "label": "Icon Scroll"
+        },
         "desktop_content_position": {
           "options__1": {
             "label": "Top Left"
