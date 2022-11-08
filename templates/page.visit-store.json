@@ -110,7 +110,12 @@
       "type": "locations",
       "settings": {
         "logo": "shopify:\/\/shop_images\/FINISH_ICON_-_W_BACKGROUND.png",
-        "logo_width": 30
+        "logo_width": 30,
+        "subheading": "STORE LOCATION",
+        "heading": "MIAMI DESIGN DISTRICT",
+        "heading_size": "h2",
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
     "0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa": {
