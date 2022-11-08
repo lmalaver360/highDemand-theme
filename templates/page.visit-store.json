@@ -155,11 +155,22 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "98592af6-29d6-44b7-a587-67676437204b": {
+      "type": "instagram",
+      "settings": {
+        "heading": "FOLLOW US ON INSTAGRAM",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4",
-    "0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa"
+    "0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa",
+    "98592af6-29d6-44b7-a587-67676437204b"
   ]
 }
