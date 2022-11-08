@@ -6,12 +6,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "LOREM IPSUM GALOR",
+            "heading": "VISIT OUR STORE",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Lorem ipsum galor et neft",
             "text_style": "subtitle"
@@ -19,9 +20,10 @@
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Learn More",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -29,11 +31,15 @@
           }
         }
       },
-      "block_order": ["heading", "text", "button"],
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
-        "image": "shopify://shop_images/necklaces-hanging-on-black.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify:\/\/shop_images\/High_Demand_3rd_Banner_1.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -43,7 +49,117 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4": {
+      "type": "image-with-text",
+      "blocks": {
+        "3d11fa22-fb28-4b26-86ec-e2fa9b7b7896": {
+          "type": "caption",
+          "settings": {
+            "caption": "VISIT OUR STORE",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorem Ipsum",
+            "heading_size": "h1"
+          }
+        },
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3d11fa22-fb28-4b26-86ec-e2fa9b7b7896",
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-0",
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-1",
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_4314.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "full_layout": true,
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16086422749383__0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa-166792047542cee6f9-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16086422749383__0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa-166792047542cee6f9-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16086422749383__0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa-166792047542cee6f9-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16086422749383__0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa-166792047542cee6f9-0",
+        "template--16086422749383__0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa-166792047542cee6f9-1",
+        "template--16086422749383__0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa-166792047542cee6f9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About_Us_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
-  "order": ["image_banner"]
+  "order": [
+    "image_banner",
+    "54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4",
+    "0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa"
+  ]
 }
