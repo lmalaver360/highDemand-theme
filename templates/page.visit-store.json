@@ -41,6 +41,7 @@
         "image_overlay_opacity": 50,
         "image_height": "small",
         "adapt_height_first_image": false,
+        "icon_scroll": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -147,6 +148,7 @@
         "image_overlay_opacity": 30,
         "image_height": "large",
         "adapt_height_first_image": false,
+        "icon_scroll": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -165,12 +167,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e1ab3885-7c85-485e-a04e-9a72a6ebb16c": {
+      "type": "locations",
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/FINISH_ICON_-_W_BACKGROUND.png",
+        "logo_width": 50
+      }
     }
   },
   "order": [
     "image_banner",
     "54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4",
     "0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa",
-    "98592af6-29d6-44b7-a587-67676437204b"
+    "98592af6-29d6-44b7-a587-67676437204b",
+    "e1ab3885-7c85-485e-a04e-9a72a6ebb16c"
   ]
 }
