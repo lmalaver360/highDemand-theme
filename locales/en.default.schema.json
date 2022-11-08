@@ -3092,10 +3092,10 @@
           "unit": "px",
           "label": "Custom logo width"
         }
+      },
+      "presets": {
+        "name": "Map locations"
       }
-    },
-    "presets": {
-      "name": "Map locations"
     }
   }
 }
