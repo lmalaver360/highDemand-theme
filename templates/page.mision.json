@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Learn More",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -29,9 +29,13 @@
           }
         }
       },
-      "block_order": ["heading", "text", "button"],
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
-        "image": "shopify://shop_images/necklaces-hanging-on-black.jpg",
+        "image": "shopify:\/\/shop_images\/necklaces-hanging-on-black.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -43,9 +47,120 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "e8ca1a35-91fa-4994-b5c6-e4a0f669ed93": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16086372679879__e8ca1a35-91fa-4994-b5c6-e4a0f669ed93-166791813384375fc4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>OUR MISSION<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16086372679879__e8ca1a35-91fa-4994-b5c6-e4a0f669ed93-166791813384375fc4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.<\/p>"
+          }
+        },
+        "template--16086372679879__e8ca1a35-91fa-4994-b5c6-e4a0f669ed93-166791813384375fc4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16086372679879__e8ca1a35-91fa-4994-b5c6-e4a0f669ed93-166791813384375fc4-0",
+        "template--16086372679879__e8ca1a35-91fa-4994-b5c6-e4a0f669ed93-166791813384375fc4-1",
+        "template--16086372679879__e8ca1a35-91fa-4994-b5c6-e4a0f669ed93-166791813384375fc4-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 92,
+        "padding_bottom": 92
+      }
+    },
+    "3a689092-34d3-455d-8804-30e9552ac100": {
+      "type": "image-with-text",
+      "blocks": {
+        "d6a97025-ecb4-4849-a0b3-f0452f0e4313": {
+          "type": "caption",
+          "settings": {
+            "caption": "OUR COMMITMENT",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--16086372679879__3a689092-34d3-455d-8804-30e9552ac100-16679181335ea35afd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorem Ipsum",
+            "heading_size": "h1"
+          }
+        },
+        "template--16086372679879__3a689092-34d3-455d-8804-30e9552ac100-16679181335ea35afd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16086372679879__3a689092-34d3-455d-8804-30e9552ac100-16679181335ea35afd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d6a97025-ecb4-4849-a0b3-f0452f0e4313",
+        "template--16086372679879__3a689092-34d3-455d-8804-30e9552ac100-16679181335ea35afd-0",
+        "template--16086372679879__3a689092-34d3-455d-8804-30e9552ac100-16679181335ea35afd-1",
+        "template--16086372679879__3a689092-34d3-455d-8804-30e9552ac100-16679181335ea35afd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/open-timepiece-exposing-cogs-and-gear-wheels.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "full_layout": true,
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "357cf399-f354-45fd-b3c9-4f62be834d31": {
+      "type": "instagram",
+      "settings": {
+        "heading": "FOLLOW US ON INSTAGRAM",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "e8ca1a35-91fa-4994-b5c6-e4a0f669ed93",
+    "3a689092-34d3-455d-8804-30e9552ac100",
+    "357cf399-f354-45fd-b3c9-4f62be834d31"
   ]
 }
