@@ -143,8 +143,8 @@
         "template--16086422749383__0f36f4a7-3bc0-4a4b-b9d6-a31210c162aa-166792047542cee6f9-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/About_Us_1.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/makeup-and-jewelry.jpg",
+        "image_overlay_opacity": 30,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
