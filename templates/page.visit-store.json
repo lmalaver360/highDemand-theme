@@ -91,12 +91,12 @@
         "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_4314.jpg",
+        "image": "shopify:\/\/shop_images\/mens-anchor-bracelet.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "full_layout": true,
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
