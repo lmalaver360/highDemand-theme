@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "JOIN OUR TEAM",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Lorem ipsum galor et neft",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Learn More",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "image": "shopify://shop_images/High_Demand_3rd_Banner_1.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "icon_scroll": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4": {
+      "type": "image-with-text",
+      "blocks": {
+        
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Work With us",
+            "heading_size": "h1"
+          }
+        },
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+            "text_style": "body"
+          }
+        },
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-0",
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-1",
+        "template--16086422749383__54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4-1667920476fd529c5f-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/mens-anchor-bracelet.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "full_layout": true,
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "54f2d1f7-1c6a-4cc6-9dd9-d8f39158bbf4"
+  ]
+}
