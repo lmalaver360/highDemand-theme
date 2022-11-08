@@ -16,7 +16,33 @@
 
 <div id="section-{{ section.id }}" class="locations section-{{ section.id }}-padding">
   <div class="locations__container">
-    <div class="locations__container--map"></div>
+    <div class="locations__container--map">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <a href="https://www.whatismyip-address.com"></a><br><style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 500px;
+              width: 100%;
+            }
+            iframe {
+              width: 100%;
+            }
+          </style>
+          <a href="https://www.embedgooglemap.net"></a>
+          <style>
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 500px;
+              width: 100%;
+            }
+          </style>
+        </div>
+      </div>
+    </div>
     <div class="locations__container--title">
       {%- if section.settings.logo != blank -%}
         {%- assign logo_alt = section.settings.logo.alt | default: 'logo' | escape -%}
@@ -29,6 +55,16 @@
          , alt: logo_alt
          }}
       {%- endif -%}
+      {%- if section.settings.subheading != blank -%}
+        <h3 class="subtitle">{{ section.settings.subheading | escape }}</h3>
+      {%- endif -%}
+      {%- if section.settings.heading != blank -%}
+        <h3 class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h3>
+      {%- endif -%}
+      <div class="locations__container--title-btns">
+        <button class="button button--small">VISIT OUR STORE</button>
+        <button class="button button--small">BOOK AN APPOINTMENT</button>
+      </div>
     </div>
 
   </div>
@@ -45,15 +81,45 @@
         "type": "image_picker",
         "id": "logo",
         "label": "t:sections.locations.settings.logo.label"
-      }, {
+      },
+      {
         "type": "range",
         "id": "logo_width",
-        "min": 50,
+        "min": 30,
         "max": 250,
         "step": 10,
-        "default": 100,
+        "default": 30,
         "unit": "t:sections.locations.settings.logo_width.unit",
         "label": "t:sections.locations.settings.logo_width.label"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "t:sections.locations.settings.subheading.label",
+        "default": "Subheading"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "t:sections.locations.settings.heading.label",
+        "default": "Title"
+      }, {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "t:sections.all.heading_size.options__1.label"
+          }, {
+            "value": "h1",
+            "label": "t:sections.all.heading_size.options__2.label"
+          }, {
+            "value": "h0",
+            "label": "t:sections.all.heading_size.options__3.label"
+          }
+        ],
+        "default": "h2",
+        "label": "t:sections.all.heading_size.label"
       }, {
         "type": "range",
         "id": "padding_top",

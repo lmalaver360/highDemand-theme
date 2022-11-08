@@ -3091,6 +3091,12 @@
         "logo_width": {
           "unit": "px",
           "label": "Custom logo width"
+        },
+        "heading": {
+          "label": "Heading"
+        },
+        "subheading": {
+          "label": "SubHeading"
         }
       },
       "presets": {
