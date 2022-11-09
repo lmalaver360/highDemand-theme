@@ -221,3 +221,28 @@
 .section-article .blog-recent ul .card__content .card__information .card__heading{
   font-size: calc(var(--font-heading-scale) * 1.9rem);
 }
+
+@media screen and (max-width: 990px){
+  .section-article{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section-article .blog-recent{
+    padding-left: 0;
+    padding-top: 0rem;
+  }
+
+  .section-article .blog-recent ul .card__content .card__information{
+    padding: 0;
+  }
+
+  .section-article .blog-recent ul .ratio{
+    display: block
+  }
+  .section-article .blog-recent ul{
+    margin-top: 3rem;
+  }
+  .section-article .blog-recent ul li{
+    margin: 2rem 0;
+  }
+}
