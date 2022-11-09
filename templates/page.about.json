@@ -57,7 +57,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/busy-hands-playing-with-white-dough.jpg",
             "title": "Our Mission",
-            "text": "<p><a href=\"\/pages\/faq\" title=\"FAQ\">LEARN MORE<\/a><\/p>",
+            "text": "<p><a href=\"\/pages\/our-mision\" title=\"Our Mision\">LEARN MORE<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -67,7 +67,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/tall-white-building-with-rust-colored-water-in-front.jpg",
             "title": "Visit Our Store",
-            "text": "<p><a href=\"\/pages\/faq\" title=\"FAQ\">LEARN MORE<\/a><\/p>",
+            "text": "<p><a href=\"\/pages\/visit-our-store\" title=\"Visit Our Store\">LEARN MORE<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -77,7 +77,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_4309_1.jpg",
             "title": "Careers at High Demand",
-            "text": "<p><a href=\"\/pages\/faq\" title=\"FAQ\">LEARN MORE<\/a><\/p>",
+            "text": "<p><a href=\"\/pages\/careers\" title=\"Careers\">LEARN MORE<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
