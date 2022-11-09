@@ -1,19 +1,80 @@
 {
   "sections": {
+    "3cdedc45-7107-4b5e-831f-54ceda40b680": {
+      "type": "image-banner",
+      "blocks": {
+        "551ad110-de7a-4d1a-bdaf-2312098db0d2": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEWS",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "551ad110-de7a-4d1a-bdaf-2312098db0d2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/person-in-black-holds-camera-at-their-waist.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "icon_scroll": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
-        "layout": "collage",
+        "layout": "grid",
         "show_image": true,
-        "image_height": "medium",
-        "show_date": true,
+        "image_height": "adapt",
+        "show_date": false,
         "show_author": false,
-        "padding_top": 36,
+        "padding_top": 60,
         "padding_bottom": 36
+      }
+    },
+    "3de85ac4-03d9-4afd-b1fa-8bc947668441": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16082471747783__3de85ac4-03d9-4afd-b1fa-8bc947668441-16680046788fef25bc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>INQUIRIES<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16082471747783__3de85ac4-03d9-4afd-b1fa-8bc947668441-16680046788fef25bc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please contact info@highdemandmiami.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16082471747783__3de85ac4-03d9-4afd-b1fa-8bc947668441-16680046788fef25bc-0",
+        "template--16082471747783__3de85ac4-03d9-4afd-b1fa-8bc947668441-16680046788fef25bc-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
       }
     }
   },
   "order": [
-    "main"
+    "3cdedc45-7107-4b5e-831f-54ceda40b680",
+    "main",
+    "3de85ac4-03d9-4afd-b1fa-8bc947668441"
   ]
 }
