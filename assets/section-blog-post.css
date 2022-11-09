@@ -189,6 +189,10 @@
   padding-top: 3rem;
 }
 
+.section-article .button{
+  text-transform: uppercase; 
+}
+
 
 .section-article .blog-recent{
   width: 100%;
