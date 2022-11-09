@@ -2995,3 +2995,9 @@ details-disclosure > details {
   color: black;
 
 }
+
+.js-bookAppointment{
+  display: none;
+  line-height: 1.5;
+  text-align: center;
+}
