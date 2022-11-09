@@ -173,3 +173,47 @@
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
+
+
+.section-article{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.section-article .article-template__link{
+  justify-content: flex-start;
+}
+
+.section-article .article-template__hero-container{
+  padding-top: 3rem;
+}
+
+
+.section-article .blog-recent{
+  width: 100%;
+  max-width: 400px;
+  padding-left: 60px;
+  padding-top: 19.3rem;
+}
+
+.section-article .blog-recent .blog__title{
+  margin-bottom: 0;
+}
+
+.section-article .blog-recent ul{
+  padding: 0;
+  margin-top: 0;
+}
+
+.section-article .blog-recent ul .card__content{
+  padding: 0;
+}
+
+.section-article .blog-recent ul .card__content .card__information{
+  padding-left: 0;
+}
+
+.section-article .blog-recent ul .card__content .card__information .card__heading{
+  font-size: calc(var(--font-heading-scale) * 1.9rem);
+}
