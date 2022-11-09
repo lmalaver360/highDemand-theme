@@ -35,11 +35,50 @@
         "share"
       ],
       "settings": {
+        "heading": "Recent Posts",
+        "heading_size": "h2",
+        "blog": "",
+        "post_limit": 3,
+        "show_image": false,
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "899aa872-1a1d-4312-8a1e-4c4b49addb9a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16082471780551__899aa872-1a1d-4312-8a1e-4c4b49addb9a-1668014547dbebbbb9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>INQUIRIES<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16082471780551__899aa872-1a1d-4312-8a1e-4c4b49addb9a-1668014547dbebbbb9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please contact info@highdemandmiami.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16082471780551__899aa872-1a1d-4312-8a1e-4c4b49addb9a-1668014547dbebbbb9-0",
+        "template--16082471780551__899aa872-1a1d-4312-8a1e-4c4b49addb9a-1668014547dbebbbb9-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
       }
     }
-    
   },
   "order": [
-    "main"
+    "main",
+    "899aa872-1a1d-4312-8a1e-4c4b49addb9a"
   ]
 }
