@@ -41,9 +41,9 @@
 
 .collapsible-content-wrapper-narrow {
   margin: 0 auto;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  max-width: 73.4rem;
+  /* padding-right: 1.5rem; */
+  /* padding-left: 1.5rem; */
+  max-width: 100%;
 }
 
 .collapsible-content__header {
@@ -118,4 +118,48 @@
       padding-left: 7rem;
     }
   }
+}
+
+.collapsible-content-wrapper-narrow details{
+  transition: all 0.3s ease-in-out;
+}
+
+.collapsible-content-wrapper-narrow details:hover{
+  background-color: black
+}
+
+.collapsible-content-wrapper-narrow details:hover .accordion__title{
+  color: white;
+}
+
+.collapsible-content-wrapper-narrow details summary {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+.collapsible-content-wrapper-narrow details summary svg{
+  display: none;
+}
+.collapsible-content-wrapper-narrow details summary:hover{
+  background: transparent;
+}
+.collapsible-content summary:hover .accordion__title{
+  text-decoration: none;
+}
+.collapsible-content-wrapper-narrow details .accordion__content{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.collapsible-content-wrapper-narrow details[open] {
+  background-color: black;
+  color: white;
+  
+}
+
+.collapsible-content-wrapper-narrow details[open] .accordion__title{
+  color: white;
 }
