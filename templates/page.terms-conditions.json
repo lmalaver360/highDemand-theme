@@ -15,7 +15,7 @@
         "template--16082472206535__86dfd743-d0c8-4d78-912a-a03ddc18e1a3-1668089188fdd8f0dd-0"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_4314.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_4314.jpg",
         "image_overlay_opacity": 60,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -37,5 +37,8 @@
       }
     }
   },
-  "order": ["86dfd743-d0c8-4d78-912a-a03ddc18e1a3", "main"]
+  "order": [
+    "86dfd743-d0c8-4d78-912a-a03ddc18e1a3",
+    "main"
+  ]
 }
