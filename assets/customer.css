@@ -655,9 +655,9 @@
 
 /* Addresses */
 
-.addresses{
+.addresses {
   width: 100%;
-  max-width: 100%;
+  max-width: 100% !important;
 }
 
 .addresses .addresses-grid{
@@ -668,10 +668,19 @@
   column-gap: 5rem;
 }
 
+@media screen and (max-width: 990px){
+  .addresses .addresses-grid{
+    display: block
+  }
+  .addresses .addresses-grid .addresses-grid--btn{
+    margin: 3rem 0;
+  }
+}
+
 .addresses .addresses-grid .addresses-grid--btn{
 grid-column: 3;
 width: max-content;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .addresses .addresses-grid .addresses-grid--form{
@@ -686,12 +695,14 @@ width: max-content;
 }
 
 .addresses li h2 {
-  text-align: left;
+  text-align: left !important;
 }
 
 .addresses li > button {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+      background: black;
+    color: white;
 }
 
 .addresses li > button + button,
