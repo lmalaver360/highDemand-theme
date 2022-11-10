@@ -663,7 +663,7 @@
 .addresses .addresses-grid{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr max-content;
+  grid-template-columns: repeat(3, 1fr);
   align-items: baseline;
   column-gap: 5rem;
 }
