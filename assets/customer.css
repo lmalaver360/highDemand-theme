@@ -1,9 +1,9 @@
 .customer:not(.account):not(.order) {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   max-width: 33.4rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 @media screen and (min-width: 750px) {
@@ -331,8 +331,9 @@
 /* Login */
 .login a {
   display: block;
-  margin: 0 auto;
+  margin: 0;
   width: fit-content;
+  text-decoration: none;
 }
 
 .login a[href='#recover'] {

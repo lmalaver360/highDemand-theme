@@ -1429,7 +1429,8 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .button--small {
-  padding: 1.2rem 2.6rem;
+  padding: 1.2rem 2.6rem !important;
+  text-transform: uppercase;
 }
 
 /* Button - other */

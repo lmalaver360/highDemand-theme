@@ -145,3 +145,7 @@
 .highDemand-collection .slider-component-full-width .slider--desktop:after{
   padding-left: 0;
 }
+
+.highDemand-collection .collection__view-all{
+  text-transform: uppercase;
+}
