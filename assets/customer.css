@@ -654,6 +654,41 @@
 }
 
 /* Addresses */
+
+.addresses{
+  width: 100%;
+  max-width: 100%;
+}
+
+.addresses .addresses-grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr max-content;
+  align-items: baseline;
+  column-gap: 5rem;
+}
+
+.addresses .addresses-grid .addresses-grid--btn{
+grid-column: 3;
+width: max-content;
+    margin: auto;
+}
+
+.addresses .addresses-grid .addresses-grid--form{
+    grid-column: 2;
+    grid-row: 1
+}
+
+.edit-address-form{
+  max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+.addresses li h2 {
+  text-align: left;
+}
+
 .addresses li > button {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -694,7 +729,7 @@ label[for='AddressProvinceNew'] {
 .addresses ul {
   list-style: none;
   padding-left: 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 li[data-address] {
