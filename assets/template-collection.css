@@ -102,7 +102,7 @@
 }
 .highDemand-collection .underline-links-hover:hover a{
   text-decoration: none;
-  width: max-content;
+  /* width: max-content; */
   position: relative;
   margin: 0 auto;
 }
