@@ -112,3 +112,19 @@
   margin-bottom: 0.5rem;
   margin-top: 0;
 }
+
+
+.header-wrapper:not(.header-wrapper--border-bottom) + cart-notification .cart-notification{
+  background-color: white !important;
+  border: 1px solid black;
+  margin-top: 1rem;
+  color: black;
+}
+
+.header-wrapper:not(.header-wrapper--border-bottom) + cart-notification .cart-notification *{
+  color: black;
+}
+
+.header-wrapper:not(.header-wrapper--border-bottom) + cart-notification .cart-notification .button--small{
+  color: white;
+}
