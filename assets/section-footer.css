@@ -617,3 +617,8 @@ noscript .localization-selector.link {
     width: 100%;
   }
 }
+
+.footer-block--menu ul.no-title a{
+ text-decoration: underline;
+ padding-top: 0;
+}

@@ -51,7 +51,7 @@
         -%}
         <div class="footer__blocks-wrapper ">
           {%- for block in section.blocks -%}
-            <div class="footer-block {% if block.type == 'link_list' and block.settings.heading != blank %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
+            <div class="footer-block {% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
 
               {%- case block.type -%}
 
@@ -59,8 +59,8 @@
                   {%- if block.settings.heading != blank -%}
                     <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
                   {%- endif -%}
-                  {%- if block.settings.menu != blank and block.settings.heading != blank -%}
-                    <ul class="footer-block__details-content list-unstyled">
+                  {%- if block.settings.menu != blank -%}
+                    <ul class="footer-block__details-content list-unstyled {% if block.settings.heading == blank %}no-title{% endif %}">
                       {%- for link in block.settings.menu.links -%}
                         <li>
                           <a href="{{ link.url }}" class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
