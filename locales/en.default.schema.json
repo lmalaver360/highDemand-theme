@@ -1600,7 +1600,17 @@
             "image": {
               "label": "Image"
             },
-            "position": "Position in grid"
+            "position": "Position in grid",
+            "columns": {
+              "label": "Desktop item size",
+              "info": "Size is adjusted automatically on smaller screen to improve user experience.",
+              "options__1": {
+                "label": "1 column"
+              },
+              "options__2": {
+                "label": "2 columns"
+              }
+            }
           }
         }
       }
