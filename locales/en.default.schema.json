@@ -1592,6 +1592,16 @@
             "label": "2 columns"
           }
         }
+      },
+      "blocks": {
+        "promotion": {
+          "name": "Promotion Banner",
+          "settings": {
+            "image": {
+              "label": "Image"
+            }
+          }
+        }
       }
     },
     "main-list-collections": {
