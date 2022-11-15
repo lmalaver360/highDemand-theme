@@ -1599,7 +1599,8 @@
           "settings": {
             "image": {
               "label": "Image"
-            }
+            },
+            "position": "Position in grid"
           }
         }
       }
