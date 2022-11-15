@@ -1598,7 +1598,8 @@
           "name": "Promotion Banner",
           "settings": {
             "image": {
-              "label": "Image"
+              "label": "Image",
+              "info": "1000 x 1000px .jpg recommended. Default to desktop image."
             },
             "position": "Position in grid",
             "columns": {
@@ -1610,6 +1611,17 @@
               "options__2": {
                 "label": "2 columns"
               }
+            },
+            "heading": "Heading",
+            "content": "Content",
+            "link_label": {
+              "label": "Link label"
+            },
+            "link": {
+              "label": "Link"
+            },
+            "image_overlay_opacity": {
+              "label": "Image overlay opacity"
             }
           }
         }
