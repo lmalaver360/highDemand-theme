@@ -30,7 +30,7 @@
         "d84bb23a-a9ac-4787-9537-37ec06a42a76"
       ],
       "settings": {
-        "products_per_page": 12,
+        "products_per_page": 8,
         "columns_desktop": 3,
         "image_ratio": "square",
         "show_secondary_image": false,
