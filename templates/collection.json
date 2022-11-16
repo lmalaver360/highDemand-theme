@@ -14,16 +14,17 @@
         "d84bb23a-a9ac-4787-9537-37ec06a42a76": {
           "type": "Promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4314.jpg",
             "position": 7,
-            "columns": "1",
-            "heading": "Promote a product or a temporary offer",
+            "heading": "",
             "heading_size": "h1",
-            "heading_alignment": "center",
-            "content": "<p>Mor details<\/p>",
+            "content_position": "bottom-center",
+            "content": "",
             "link_label": "LEARN MORE",
             "link": "shopify:\/\/pages\/careers",
-            "image_overlay_opacity": 50
+            "button_style_secondary": false,
+            "color_title": "#FFFFFF",
+            "color_overlay": "#000000",
+            "image_overlay_opacity": 0
           }
         }
       },
