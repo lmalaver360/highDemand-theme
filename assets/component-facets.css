@@ -1191,6 +1191,13 @@ input.mobile-facets__checkbox {
   
 }
 
+@media screen and (max-width: 1199px){
+  .product-list-promo{
+    height: 100%;
+
+  }
+  
+}
 
 
 .product-list-promo::after{
@@ -1282,10 +1289,4 @@ input.mobile-facets__checkbox {
 .product-list-promo .product-list-promo_description .title{
   margin-top: 0;
   margin-bottom: 0;
-  color: white;
-}
-
-.product-list-promo .product-list-promo_description .description{
-  color: white;
-
 }

@@ -39,6 +39,8 @@
 
     --content-over-media-gap: var(--spacing-8);
     --overlay-opacity: 1;
+    --overlay-color: #000;
+
   }
 
   @media screen and (min-width: 700px) {
@@ -222,17 +224,15 @@
                 {% assign positionPromo = block.settings.position %}
                 {% assign imagePromo = block.settings.image %}
                 {% assign overlayPromo = block.settings.image_overlay_opacity %}
+                {% assign overlayColorPromo = block.settings.color_overlay %}
                 {% assign headingPromo = block.settings.heading %}
                 {% assign headingSizePromo = block.settings.heading_size %}
                 {% assign decriptionPromo = block.settings.content %} 
+                {% assign colorTextPromo = block.settings.color_title %}
                 {% assign linkLabelPromo = block.settings.link_label %}
                 {% assign linkPromo = block.settings.link %}
                 {% assign contentPositionPromo = block.settings.content_position %}
-
-
-
-
-
+                {% assign btnPromo = block.settings.button_style_secondary %}
 
 
               {%- endfor -%}
@@ -243,7 +243,7 @@
                     {%- assign lazy_load = true -%}
                   {%- endif -%}
                   {%- if forloop.index == positionPromo -%}
-                    <div id="Promo-{{ section.id }}" class="product-list-promo" style="--overlay-opacity: {{ overlayPromo | divided_by: 100.0 }}">
+                    <div id="Promo-{{ section.id }}" class="product-list-promo" style="--overlay-opacity: {{ overlayPromo | divided_by: 100.0 }}; --overlay-color: {{ overlayColorPromo }}">
                       <div class="product-list-promo_image">
                         {%- if imagePromo != blank -%}
                           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {% if section.blocks.size == 1 %}calc({{ settings.page_width }}px - 100px){% else %}{{ settings.page_width | minus: 100 | times: 0.67 | round }}px{% endif %}, (min-width: 750px){% if section.blocks.size == 1 %} calc(100vw - 100px){% else %} 500px{% endif %}, calc(100vw - 30px)}{%- endcapture -%}
@@ -259,13 +259,13 @@
                       </div>
                       <div class="product-list-promo_description {{ contentPositionPromo }}">
                         {%- if headingPromo != blank -%}
-                          <p class="title {{ headingSizePromo }}">{{ headingPromo | escape }}</p>
+                          <p class="title {{ headingSizePromo }}" style="color: {{ colorTextPromo }}">{{ headingPromo | escape }}</p>
                         {%- endif -%}
                         {%- if headingPromo != blank -%}
-                          <div class="description">{{ decriptionPromo }}</div>
+                          <div class="description" style="color: {{ colorTextPromo }}">{{ decriptionPromo }}</div>
                         {%- endif -%}
                         {%- if linkLabelPromo != blank -%}
-                          <a class="button button-primary button--small" {% if linkPromo == blank %}role="link"aria-disabled="true"{% else %}href="{{ linkPromo }}"{% endif %}>{{ linkLabelPromo | escape }}
+                          <a class="button button--small {% if btnPromo %} button--secondary{% else %} button--primary{% endif %}" {% if linkPromo == blank %}role="link"aria-disabled="true"{% else %}href="{{ linkPromo }}"{% endif %}>{{ linkLabelPromo | escape }}
                           </a>
                         {%- endif -%}
                       </div>
@@ -561,12 +561,6 @@
           "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.label"
         },
         {
-          "type": "color",
-          "id": "color_title",
-          "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.color_title.label",
-          "default": "#FFFFFF"
-        },
-        {
           "type": "richtext",
           "id": "content",
           "default": "<p></p>",
@@ -581,6 +575,28 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": true,
+          "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.button_style_secondary.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.main-collection-product-grid.blocks.promotion.settings.header.content"
+        },
+        {
+          "type": "color",
+          "id": "color_title",
+          "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.color_title.label",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "color_overlay",
+          "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.color_overlay.label",
+          "default": "#000000"
         },
         {
           "type": "range",
