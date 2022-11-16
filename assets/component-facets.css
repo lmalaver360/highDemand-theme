@@ -1169,3 +1169,25 @@ input.mobile-facets__checkbox {
     margin-top: 2rem;
   }
 }
+
+.product-list{
+  grid: var(--product-list-grid);
+  gap: 3rem 1.5rem;
+  scroll-padding-top: calc(var(--sticky-area-height) + 20px);
+  display: grid;
+  position: relative;
+}
+
+.product-list-promo{
+  grid-column: var(--product-list-promo-grid-column, span 2);
+  grid-row: span 2;
+  background-color:pink;
+
+    min-height: 200px;
+    display: grid;
+}
+
+.product-list .grid__item{
+  width: 100%;
+  max-width: 100%;
+}

@@ -26,6 +26,49 @@
   }
 {%- endstyle -%}
 
+{%- style -%}
+  #Promo-{{ section.id }}::after{
+    opacity: {{ section.blocks.settings.image_overlay_opacity | divided_by: 100.0 }};
+  }
+
+  #product-grid-{{ section.id }} {
+    --product-list-gap:  var(--spacing-2);
+    --product-list-items-per-row: 2;
+    --product-list-grid: auto-flow dense / repeat(var(--product-list-items-per-row), minmax(0, 1fr));
+    --product-list-promo-grid-column: span 2;
+
+    --content-over-media-gap: var(--spacing-8);
+  }
+
+  @media screen and (min-width: 700px) {
+    #product-grid-{{ section.id }} {
+      --product-list-gap: var(--product-list-row-gap) var(--product-list-column-gap);
+      --product-list-items-per-row: 2;
+      --product-list-promo-grid-column: span 1;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    #product-grid-{{ section.id }} {
+      --product-list-items-per-row: 2;
+      --product-list-promo-grid-column: span 2;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    #product-grid-{{ section.id }} {
+      --product-list-items-per-row: 3;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    #product-grid-{{ section.id }} {
+      --product-list-items-per-row: 3;
+    }#block-template--16919073915193__main-6f7cfd95-838f-491f-a4c1-0038d70abc68 {
+        --product-list-promo-grid-column: span 1;}}
+
+{%- endstyle -%}
+
 <div class="section-{{ section.id }}-padding">
   
 
@@ -39,8 +82,10 @@
     {%- endif -%}
 
     <div class="product-grid-container" id="ProductGridContainer">
-      
       <div class="titleSort">
+       
+        <p>{{- section.blocks.settings.position -}}</p>
+
         <h1 class="collection-hero__title">
           <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
           {{- collection.title | escape -}}
@@ -168,29 +213,39 @@
           <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
             <div class="loading-overlay gradient"></div>
     
-            <ul id="product-grid" data-id="{{ section.id }}" class="
+            <div id="product-grid-{{ section.id }}" data-id="{{ section.id }}" class="product-list 
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
-              {%- for product in collection.products -%}
-                {% assign lazy_load = false %}
-                {%- if forloop.index > 2 -%}
-                  {%- assign lazy_load = true -%}
-                {%- endif -%}
-                <li class="grid__item">
-                  {% render 'card-product',
-                    card_product: product,
-                    media_aspect_ratio: section.settings.image_ratio,
-                    show_secondary_image: section.settings.show_secondary_image,
-                    show_vendor: section.settings.show_vendor,
-                    show_rating: section.settings.show_rating,
-                    lazy_load: lazy_load,
-                    show_quick_add: section.settings.enable_quick_add,
-                    section_id: section.id
 
-                  %}
-                </li>
+              {%- for block in section.blocks -%}
+                {% assign item = block.settings.position %}
               {%- endfor -%}
-            </ul>
+              
+              {%- for product in collection.products -%}
+                  {% assign lazy_load = false %}
+                  {%- if forloop.index > 2 -%}
+                    {%- assign lazy_load = true -%}
+                  {%- endif -%}
+                  {%- if forloop.index == item -%}
+                    <div id="Promo-{{ section.id }}" class="product-list-promo" style>
+  
+                    </div>
+                  {%- endif -%}
+                  <div class="grid__item">
+                    {% render 'card-product',
+                      card_product: product,
+                      media_aspect_ratio: section.settings.image_ratio,
+                      show_secondary_image: section.settings.show_secondary_image,
+                      show_vendor: section.settings.show_vendor,
+                      show_rating: section.settings.show_rating,
+                      lazy_load: lazy_load,
+                      show_quick_add: section.settings.enable_quick_add,
+                      section_id: section.id
+  
+                    %}
+                  </div>
+                {%- endfor -%}
+            </div>
     
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
@@ -374,8 +429,9 @@
           "id": "position",
           "min": 1,
           "max": 12,
+          "unit": "px",
           "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.position",
-          "default": 1
+          "default": 4
         },
         {
           "type": "select",
