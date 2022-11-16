@@ -10,6 +10,25 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "blocks": {
+        "d84bb23a-a9ac-4787-9537-37ec06a42a76": {
+          "type": "Promotion",
+          "settings": {
+            "position": 1,
+            "columns": "1",
+            "heading": "Promote a product or a temporary offer",
+            "heading_size": "h1",
+            "heading_alignment": "center",
+            "content": "<p><\/p>",
+            "link_label": "",
+            "link": "",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "d84bb23a-a9ac-4787-9537-37ec06a42a76"
+      ],
       "settings": {
         "products_per_page": 12,
         "columns_desktop": 3,
