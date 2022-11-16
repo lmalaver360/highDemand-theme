@@ -14,12 +14,12 @@
         "d84bb23a-a9ac-4787-9537-37ec06a42a76": {
           "type": "Promotion",
           "settings": {
-            "position": 1,
+            "position": 4,
             "columns": "1",
             "heading": "Promote a product or a temporary offer",
             "heading_size": "h1",
             "heading_alignment": "center",
-            "content": "<p><\/p>",
+            "content": "",
             "link_label": "",
             "link": "",
             "image_overlay_opacity": 0
