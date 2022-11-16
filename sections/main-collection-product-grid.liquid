@@ -27,8 +27,8 @@
 {%- endstyle -%}
 
 {%- style -%}
-  #Promo-{{ section.id }}::after{
-    opacity: {{ section.blocks.settings.image_overlay_opacity | divided_by: 100.0 }};
+  
+  #Promo-{{ section.id }}{
   }
 
   #product-grid-{{ section.id }} {
@@ -38,6 +38,7 @@
     --product-list-promo-grid-column: span 2;
 
     --content-over-media-gap: var(--spacing-8);
+    --overlay-opacity: 1;
   }
 
   @media screen and (min-width: 700px) {
@@ -218,7 +219,22 @@
               grid--{{ section.settings.columns_desktop }}-col-desktop">
 
               {%- for block in section.blocks -%}
-                {% assign item = block.settings.position %}
+                {% assign positionPromo = block.settings.position %}
+                {% assign imagePromo = block.settings.image %}
+                {% assign overlayPromo = block.settings.image_overlay_opacity %}
+                {% assign headingPromo = block.settings.heading %}
+                {% assign headingSizePromo = block.settings.heading_size %}
+                {% assign decriptionPromo = block.settings.content %} 
+                {% assign linkLabelPromo = block.settings.link_label %}
+                {% assign linkPromo = block.settings.link %}
+                {% assign contentPositionPromo = block.settings.content_position %}
+
+
+
+
+
+
+
               {%- endfor -%}
               
               {%- for product in collection.products -%}
@@ -226,9 +242,33 @@
                   {%- if forloop.index > 2 -%}
                     {%- assign lazy_load = true -%}
                   {%- endif -%}
-                  {%- if forloop.index == item -%}
-                    <div id="Promo-{{ section.id }}" class="product-list-promo" style>
+                  {%- if forloop.index == positionPromo -%}
+                    <div id="Promo-{{ section.id }}" class="product-list-promo" style="--overlay-opacity: {{ overlayPromo | divided_by: 100.0 }}">
+                      <div class="product-list-promo_image">
+                        {%- if imagePromo != blank -%}
+                          {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {% if section.blocks.size == 1 %}calc({{ settings.page_width }}px - 100px){% else %}{{ settings.page_width | minus: 100 | times: 0.67 | round }}px{% endif %}, (min-width: 750px){% if section.blocks.size == 1 %} calc(100vw - 100px){% else %} 500px{% endif %}, calc(100vw - 30px)}{%- endcapture -%}
   
+                          {{ imagePromo | image_url: width: 3000 | image_tag:
+                            loading: 'lazy',
+                            sizes: sizes,
+                            widths: '550, 720, 990, 1100, 1500, 2200, 3000'
+                          }}
+                        {%- else -%}
+                          {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                        {%- endif -%}
+                      </div>
+                      <div class="product-list-promo_description {{ contentPositionPromo }}">
+                        {%- if headingPromo != blank -%}
+                          <p class="title {{ headingSizePromo }}">{{ headingPromo | escape }}</p>
+                        {%- endif -%}
+                        {%- if headingPromo != blank -%}
+                          <div class="description">{{ decriptionPromo }}</div>
+                        {%- endif -%}
+                        {%- if linkLabelPromo != blank -%}
+                          <a class="button button-primary button--small" {% if linkPromo == blank %}role="link"aria-disabled="true"{% else %}href="{{ linkPromo }}"{% endif %}>{{ linkLabelPromo | escape }}
+                          </a>
+                        {%- endif -%}
+                      </div>
                     </div>
                   {%- endif -%}
                   <div class="grid__item">
@@ -478,23 +518,53 @@
         },
         {
           "type": "select",
-          "id": "heading_alignment",
-          "label": "t:sections.all.heading_alignment.label",
+          "id": "content_position",
           "options": [
             {
-              "value": "left",
-              "label": "t:sections.all.heading_alignment.options__1.label"
+              "value": "top-left",
+              "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.options__1.label"
             },
             {
-              "value": "center",
-              "label": "t:sections.all.heading_alignment.options__2.label"
+              "value": "top-center",
+              "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.options__2.label"
             },
             {
-              "value": "right",
-              "label": "t:sections.all.heading_alignment.options__3.label"
+              "value": "top-right",
+              "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.options__3.label"
+            },
+            {
+              "value": "middle-left",
+              "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.options__4.label"
+            },
+            {
+              "value": "middle-center",
+              "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.options__5.label"
+            },
+            {
+              "value": "middle-right",
+              "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.options__6.label"
+            },
+            {
+              "value": "bottom-left",
+              "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.options__7.label"
+            },
+            {
+              "value": "bottom-center",
+              "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.options__8.label"
+            },
+            {
+              "value": "bottom-right",
+              "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.options__9.label"
             }
           ],
-          "default": "center"
+          "default": "bottom-center",
+          "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.content_position.label"
+        },
+        {
+          "type": "color",
+          "id": "color_title",
+          "label": "t:sections.main-collection-product-grid.blocks.promotion.settings.color_title.label",
+          "default": "#FFFFFF"
         },
         {
           "type": "richtext",

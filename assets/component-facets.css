@@ -1177,17 +1177,115 @@ input.mobile-facets__checkbox {
   display: grid;
   position: relative;
 }
-
-.product-list-promo{
-  grid-column: var(--product-list-promo-grid-column, span 2);
-  grid-row: span 2;
-  background-color:pink;
-
-    min-height: 200px;
-    display: grid;
-}
-
 .product-list .grid__item{
   width: 100%;
   max-width: 100%;
+}
+.product-list-promo{
+  grid-column: var(--product-list-promo-grid-column, span 2);
+  grid-row: span 2;
+  position: relative;
+  min-height: 200px;
+  height: calc(100% - 65px);
+  display: grid;
+  
+}
+
+
+
+.product-list-promo::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  background: #000000;
+  opacity: var(--overlay-opacity);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+
+
+.product-list-promo .product-list-promo_image img, .product-list-promo .product-list-promo_image svg{
+  width: 100%;
+  height:  100%;
+  object-fit: cover;
+}
+
+.product-list-promo .product-list-promo_description{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.product-list-promo .product-list-promo_description.top-left{
+
+}
+
+.product-list-promo .product-list-promo_description.top-center{
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.product-list-promo .product-list-promo_description.top-right{
+  align-items: flex-end;
+  text-align: right;
+}
+
+.product-list-promo .product-list-promo_description.middle-left{
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.product-list-promo .product-list-promo_description.middle-center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-list-promo .product-list-promo_description.middle-right{
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+}
+
+.product-list-promo .product-list-promo_description.bottom-left{
+    align-items: flex-start;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.product-list-promo .product-list-promo_description.bottom-center{
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.product-list-promo .product-list-promo_description.bottom-right{
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.product-list-promo .product-list-promo_description .button{
+  width: max-content;
+
+}
+
+.product-list-promo .product-list-promo_description .title{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+.product-list-promo .product-list-promo_description .description{
+  color: white;
+
 }

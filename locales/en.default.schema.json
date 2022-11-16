@@ -1622,6 +1622,39 @@
             },
             "image_overlay_opacity": {
               "label": "Image overlay opacity"
+            },
+            "content_position": {
+              "options__1": {
+                "label": "Top Left"
+              },
+              "options__2": {
+                "label": "Top Center"
+              },
+              "options__3": {
+                "label": "Top Right"
+              },
+              "options__4": {
+                "label": "Middle Left"
+              },
+              "options__5": {
+                "label": "Middle Center"
+              },
+              "options__6": {
+                "label": "Middle Right"
+              },
+              "options__7": {
+                "label": "Bottom Left"
+              },
+              "options__8": {
+                "label": "Bottom Center"
+              },
+              "options__9": {
+                "label": "Bottom Right"
+              },
+              "label": "Content position"
+            },
+            "color_title": {
+              "label": "Color text"
             }
           }
         }

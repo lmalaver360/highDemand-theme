@@ -23,7 +23,7 @@
             "content": "<p>Mor details<\/p>",
             "link_label": "LEARN MORE",
             "link": "shopify:\/\/pages\/careers",
-            "image_overlay_opacity": 20
+            "image_overlay_opacity": 50
           }
         }
       },
