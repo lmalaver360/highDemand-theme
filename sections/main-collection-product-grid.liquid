@@ -213,7 +213,7 @@
             </div>
           </div>
         {%- else -%}
-          <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
+          <div id="product-grid" data-id="{{ section.id }}" class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
             <div class="loading-overlay gradient"></div>
     
             <div id="product-grid-{{ section.id }}" data-id="{{ section.id }}" class="product-list 
