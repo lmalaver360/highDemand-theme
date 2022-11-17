@@ -25,16 +25,23 @@
   grid-column: 2;
   text-align: center;
   padding: 3rem 0;
+  letter-spacing: 0.65px;
 }
 .locations__container--title .subtitle{
   margin: 0;
   margin-top: 20px;
   margin-bottom: 5px;
-  line-height: 1;
+  font-family: proxima-nova, sans-serif !important;
+  font-size: 13px;
+  letter-spacing: 1px;
+  
+
 }
 .locations__container--title .title{
   margin: 0;
   margin-bottom: clamp(2rem, 3vw, 5rem);
+  font-family: proxima-nova, sans-serif !important;
+
 }
 
 .locations__container--title-btns{
@@ -59,6 +66,8 @@
   margin: 1rem auto;
   max-width: 250px;
   width: 100%;
+  font-size: 13px;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 750px){

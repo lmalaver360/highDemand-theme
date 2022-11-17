@@ -38,7 +38,9 @@
 
 .collection-hero__title {
   margin: 2.5rem 0;
-  font-size: 2.5rem
+  font-size: 2.5rem;
+  font-family: proxima-nova, sans-serif !important;
+
 }
 
 .collection-hero__title + .collection-hero__description {

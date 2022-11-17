@@ -48,6 +48,17 @@
 
 .article-card .card__heading {
   margin-bottom: 0.6rem;
+  font-family: proxima-nova, sans-serif !important;
+
+}
+.article-card .card__heading .full-unstyled-link{
+  /* letter-spacing: 1.05px; */
+  font-size: 18px;
+}
+
+.article-card .card__heading .button{
+  font-size: 13px;
+  letter-spacing: 0.65px;
 }
 
 .blog-articles .article-card .card__information,
@@ -63,6 +74,7 @@
 .article-card__footer {
   letter-spacing: 0.1rem;
   font-size: 1.4rem;
+  display: none;
 }
 
 .article-card__footer:not(:last-child) {
@@ -76,6 +88,7 @@
 .article-card__excerpt {
   width: 100%;
   margin-top: 1.2rem;
+  font-size: 13px;
 }
 
 .article-card__link:not(:only-child) {

@@ -432,7 +432,8 @@
 }
 .banner__buttons a {
   color: white;
-  text-decoration: none
+  text-decoration: none;
+  letter-spacing: 0.8px;
 
 }
 .banner__buttons a.button--primary{
@@ -486,4 +487,9 @@
 
 .banner__box > * + .banner__buttons {
   margin-top: 2rem;
+}
+
+
+.banner__text.subtitle{
+  font-size: 28px;
 }

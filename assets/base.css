@@ -398,6 +398,7 @@ body,
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
+
 }
 
 h1,
@@ -414,7 +415,7 @@ h5,
   font-family: var(--font-heading-family);
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
-  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
+  /* letter-spacing: calc(var(--font-heading-scale) * 0.06rem); */
   color: rgb(var(--color-foreground));
   line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale)));
   word-break: break-word;
@@ -2976,6 +2977,8 @@ details-disclosure > details {
 
 .highDemand-header .list-menu__item{
   /* //font-size: 2rem; */
+  font-size: 13px;
+  letter-spacing: 1.2px;
 }
 
 .highDemand-header .header__menu-item svg{
@@ -3002,3 +3005,9 @@ details-disclosure > details {
   line-height: 1.5;
   text-align: center;
 }
+
+/* 
+body {
+  font-family: proxima-nova, sans-serif !important;
+
+} */

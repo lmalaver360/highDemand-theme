@@ -98,6 +98,8 @@
   text-transform:  uppercase;
   transition: all .3s ease-in-out;
   padding: 0 2rem 5px;
+  letter-spacing: 0.6px;
+  font-size: 13px;
 
 }
 .highDemand-collection .underline-links-hover:hover a{
@@ -116,7 +118,9 @@
   left: 0;
   bottom: 0;
 }
-
+.highDemand-collection .card-information .price__regular .price-item--regular {
+  font-size: 13px;
+}
 .highDemand-collection .slider-component-full-width ul{
     width: 90%;
     margin: 0 auto;

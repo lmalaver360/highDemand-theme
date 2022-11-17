@@ -48,5 +48,6 @@
 }
 .contact .contact__button button{
   text-transform: uppercase;
+  font-size: 13px;
 }
 

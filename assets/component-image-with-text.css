@@ -308,6 +308,8 @@
 
 .image-with-text__content .image-with-text__text + .button {
   margin-top: 3rem;
+  font-size: 13px;
+  letter-spacing: 0.65px;
 }
 
 .image-with-text__content .image-with-text__text + .button.button--primary {
@@ -330,6 +332,8 @@
 .image-with-text__heading {
   word-break: break-word;
   margin-bottom: 0;
+  font-family: proxima-nova, sans-serif !important;
+  letter-spacing: 1.65px;
 }
 
 .image-with-text__text p {

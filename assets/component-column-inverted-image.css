@@ -38,6 +38,8 @@
   position: relative;
   padding-bottom: 5px;
   text-decoration: none;
+  letter-spacing: 0.65px;
+  font-size: 13px;
 }
 .columnInvertedImage__container-item--info a::after {
     content: " ";

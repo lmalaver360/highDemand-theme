@@ -176,16 +176,18 @@
 
 .footer-block__heading {
   margin-top: 0;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 1rem;
   letter-spacing: 0.65px;
+  letter-spacing: 0.85px;
 }
 
 .heading-newsletter{
   font-weight: normal;
   font-size: 17px;
-  letter-spacing: 1.7px;
+  letter-spacing: 0.85px;
+  font-family: proxima-nova, sans-serif !important;
 }
 
 
@@ -442,6 +444,7 @@ noscript .localization-selector.link {
 .footer-block__details-content p {
   display: flex;
   font-size: 13px;
+  letter-spacing: 0.6px;
 }
 
 .footer-block__details-content p a:first-child{
@@ -501,7 +504,8 @@ noscript .localization-selector.link {
 @media screen and (min-width: 750px) {
   .footer-block__details-content .list-menu__item--link {
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: 12px;
+    letter-spacing: 0.6px;
   }
 
   .footer-block__details-content > :first-child .list-menu__item--link {
