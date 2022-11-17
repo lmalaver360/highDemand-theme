@@ -1438,7 +1438,7 @@
             }
           }
         },
-        "social_media": {
+        "text": {
           "name": "Social Media",
           "settings": {
             "social_facebook": {
