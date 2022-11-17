@@ -14,15 +14,16 @@
         "d84bb23a-a9ac-4787-9537-37ec06a42a76": {
           "type": "Promotion",
           "settings": {
-            "position": 7,
+            "image": "shopify:\/\/shop_images\/tall-white-building-with-rust-colored-water-in-front.jpg",
+            "position": 3,
             "heading": "",
-            "heading_size": "h1",
-            "content_position": "bottom-center",
+            "heading_size": "h2",
+            "content_position": "middle-center",
             "content": "",
             "link_label": "LEARN MORE",
-            "link": "shopify:\/\/pages\/careers",
+            "link": "shopify:\/\/products\/sb231842-89",
             "button_style_secondary": false,
-            "color_title": "#FFFFFF",
+            "color_title": "#ffffff",
             "color_overlay": "#000000",
             "image_overlay_opacity": 0
           }
