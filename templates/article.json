@@ -27,13 +27,7 @@
             "share_label": "Share"
           }
         },
-        "5a8f3f5c-171d-4e3d-bb0d-687b5f2602b9": {
-          "type": "share",
-          "settings": {
-            "share_label": "facebook"
-          }
-        },
-        "26e6b29b-8622-4335-9253-e1228d7f807b": {
+         "26e6b29b-8622-4335-9253-e1228d7f807b": {
           "type": "text",
           "settings": {
             "social_facebook": true
@@ -45,7 +39,6 @@
         "featured_image",
         "content",
         "share",
-        "5a8f3f5c-171d-4e3d-bb0d-687b5f2602b9",
         "26e6b29b-8622-4335-9253-e1228d7f807b"
       ],
       "settings": {

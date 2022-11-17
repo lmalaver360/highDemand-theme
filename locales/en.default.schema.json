@@ -1443,6 +1443,12 @@
           "settings": {
             "social_facebook": {
               "label": "Facebook"
+            },
+            "social_twitter": {
+              "label": "Twitter"
+            },
+            "social_instagram": {
+              "label": "Instagram"
             }
           }
         }

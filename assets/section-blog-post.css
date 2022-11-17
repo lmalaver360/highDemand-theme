@@ -93,7 +93,8 @@
 }
 
 .article-template__social-sharing {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
+  margin-right: 1rem;
 }
 
 .article-template__social-sharing + header,
@@ -245,4 +246,12 @@
   .section-article .blog-recent ul li{
     margin: 2rem 0;
   }
+}
+
+.article-template__sharing{
+  display: flex;
+  align-items: center;
+}
+.article-template__social-media{
+  display: flex;
 }
