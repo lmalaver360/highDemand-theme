@@ -26,13 +26,20 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "5a8f3f5c-171d-4e3d-bb0d-687b5f2602b9": {
+          "type": "share",
+          "settings": {
+            "share_label": "facebook"
+          }
         }
       },
       "block_order": [
         "title",
         "featured_image",
         "content",
-        "share"
+        "share",
+        "5a8f3f5c-171d-4e3d-bb0d-687b5f2602b9"
       ],
       "settings": {
         "heading": "Recent Posts",
