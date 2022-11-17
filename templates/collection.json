@@ -14,11 +14,11 @@
         "d84bb23a-a9ac-4787-9537-37ec06a42a76": {
           "type": "Promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person-in-black-holds-camera-at-their-waist.jpg",
-            "position": 7,
+            "image": "shopify:\/\/shop_images\/tall-white-building-with-rust-colored-water-in-front.jpg",
+            "position": 3,
             "heading": "",
-            "heading_size": "h1",
-            "content_position": "top-left",
+            "heading_size": "h2",
+            "content_position": "middle-center",
             "content": "",
             "link_label": "LEARN MORE",
             "link": "shopify:\/\/products\/sb231842-89",
