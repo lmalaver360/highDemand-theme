@@ -1437,6 +1437,14 @@
               "content": "A store title and description are included with the preview image. [Learn more](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             }
           }
+        },
+        "social_media": {
+          "name": "Social Media",
+          "settings": {
+            "social_facebook": {
+              "label": "Facebook"
+            }
+          }
         }
       }
     },
