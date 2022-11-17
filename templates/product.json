@@ -125,7 +125,7 @@
       "settings": {
         "heading": "MORE IN THIS COLLECTION",
         "heading_size": "h1",
-        "products_to_show": 10,
+        "products_to_show": 5,
         "columns_desktop": 5,
         "color_scheme": "background-1",
         "image_ratio": "square",
