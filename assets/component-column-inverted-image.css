@@ -27,9 +27,11 @@
   color: white;
 }
 .columnInvertedImage__container-item--info .heading {
-  font-size: clamp(30px, 4vw, 40px);
+  font-size: clamp(30px, 4vw, 43px);
   letter-spacing: 4.2px;
   margin: 0;
+  font-family: "pangramregular" !important;
+
 }
 .columnInvertedImage__container-item--info a {
   color: white;
@@ -55,18 +57,27 @@
 }
 
 @media screen and (max-width: 950px) {
+
   .columnInvertedImage__container {
     flex-direction: column;
+    height: max-content;
   }
+
   .columnInvertedImage__container-item:nth-child(1) {
     width: 100% !important;
-    height: 49%;
+    height: 100vh;
+    margin-bottom: 1.5rem;
   }
   .columnInvertedImage__container-item:nth-child(2) {
     width: 100% !important;
-    height: 49%;
+    height: 100vh;
   }
   .columnInvertedImage__container.invert {
     flex-direction: column-reverse !important;
+  }
+
+  .columnInvertedImage__container.invert .columnInvertedImage__container-item:nth-child(2) {
+    margin-bottom: 1.5rem;
+
   }
 }

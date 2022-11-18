@@ -140,6 +140,17 @@
     margin-top: 0;
   }
 }
+@media screen and (max-width: 996px){
+  .footer-block {
+    text-align: center;
+  }
+  .footer-block__details-content p{
+    width: max-content;
+    margin: 0 auto;
+  }
+  
+}
+
 
 .footer-block:empty {
   display: none;
@@ -599,7 +610,7 @@ noscript .localization-selector.link {
     flex-direction: column;
     align-items: center;
     width: auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .footer-block--menu{
     text-align: center;
