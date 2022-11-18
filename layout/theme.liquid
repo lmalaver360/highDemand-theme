@@ -290,6 +290,11 @@
           font-size: 16px;
         }
       }
+
+      @font-face {
+        font-family: "pangramregular";
+        src: url('{{ "pangram-regular-webfont" | asset_url }}') format("woff")
+      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
