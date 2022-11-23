@@ -1,0 +1,21 @@
+<div class="popUp">
+  <div class="popUp-container">
+    <p>
+      {{ section.settings.text }}
+    </p>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "t:sections.pop-up.name",
+    "settings": [
+      {
+        "type": "text",
+        "id": "text",
+        "default": "Lorem ipsum dolor sit amet.",
+        "label": "t:sections.pop-up.settngs.text.label"
+      }
+    ]
+  }
+{% endschema %}

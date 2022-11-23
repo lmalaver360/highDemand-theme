@@ -416,7 +416,7 @@
                       <button
                         type="submit"
                         name="add"
-                        class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+                        class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--small{% else %}button--primary{% endif %}"
                         {% if product.selected_or_first_available_variant.available == false %}
                           disabled
                         {% endif %}
@@ -1748,7 +1748,7 @@
           "id": "image_1",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.image_1.label"
         },
-       {
+        {
           "type": "text",
           "id": "heading_1",
           "default": "Heading",
@@ -1944,7 +1944,7 @@
           "id": "image_2",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.image_2.label"
         },
-          {
+        {
           "type": "text",
           "id": "heading_2",
           "default": "Heading",
