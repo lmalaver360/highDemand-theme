@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "VISIT OUR STORE",
+            "heading": "NEW ARRIVALS",
             "heading_size": "hxl"
           }
         },
@@ -56,10 +56,10 @@
         "image": "shopify:\/\/shop_images\/mens-fashion-watch.jpg",
         "image_2": "shopify:\/\/shop_images\/necklaces-hanging-on-black.jpg",
         "position": "default",
-        "text": "NEW",
+        "text": "WATCHES",
         "button_label_1": "SHOP NOW",
         "button_link_1": "shopify:\/\/collections",
-        "text_2": "JEWELRY",
+        "text_2": "MEN'S JEWLERY",
         "button_label_2": "SHOP NOW",
         "button_link_2": "shopify:\/\/collections\/all"
       }
@@ -73,7 +73,7 @@
         "text": "WEDDING",
         "button_label_1": "SHOP NOW",
         "button_link_1": "shopify:\/\/collections\/all",
-        "text_2": "WATCHES",
+        "text_2": "WOMEN'S JEWLERY",
         "button_label_2": "SHOP NOW",
         "button_link_2": "shopify:\/\/collections\/all"
       }
