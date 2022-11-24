@@ -3,5 +3,49 @@
 }
 
 .product-recommendations__heading {
-  margin: 0 0 3rem;
+  margin: 0 0 65px;
+}
+
+
+.product-recommendations .card-wrapper:hover{
+  border: 1px solid black;
+}
+
+.product-recommendations .underline-links-hover a{
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+  padding: 0 0 5px;
+  letter-spacing: .6px;
+  font-size: 13px;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.product-recommendations .underline-links-hover:hover a{
+  text-decoration: none;
+  position: relative;
+}
+
+.product-recommendations .underline-links-hover:hover a:before{
+  content: "";
+    width: 100%;
+    height: 1px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.product-recommendations .card__content{
+  text-align: center;
+}
+
+.product-recommendations .card-information {
+    text-align: center;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.product-recommendations .card-wrapper:hover .card-information{
+  opacity: 1;
 }
