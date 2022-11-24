@@ -125,13 +125,17 @@
     width: 90%;
     margin: 0 auto;
     z-index: 2;
+    scroll-padding-left: auto !important;
 }
 
 .highDemand-collection .slider-buttons{
   position: absolute;
-    width: 100%;
-    top: 50%;
+    width: 98%;
+    top: 37%;
     justify-content:space-between;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 .highDemand-collection .slider-button .icon{
   height: auto;
@@ -152,4 +156,26 @@
 
 .highDemand-collection .collection__view-all{
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 989px){
+  
+  .highDemand-collection .slider-component-full-width ul{
+    width: 80%;
+  }
+  
+}
+
+@media screen and (max-width: 500px){
+  .highDemand-collection .slider-buttons{
+    width: 100%;
+    top: 28%;
+  }
+  .highDemand-collection .slider-buttons .slider-button{
+    width: 35px;
+    height: 35px;
+  }
+  .highDemand-collection .underline-links-hover a{
+    font-size: 11px;
+  }
 }
