@@ -121,7 +121,7 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 44
+        "padding_bottom": 0
       }
     },
     "product-recommendations": {
