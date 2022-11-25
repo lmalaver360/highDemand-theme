@@ -4,11 +4,19 @@
   border: none;
 }
 
+.cart-items thead{
+      background: #F7F8F9;
+}
+
 .cart-items th {
   text-align: left;
-  padding-bottom: 1.8rem;
+  padding: 1.8rem;
   opacity: 0.85;
   font-weight: normal;
+  font-size: 14px;
+  color: black;
+  letter-spacing: .5px;
+  text-transform: capitalize !important;
 }
 
 .cart-item__quantity-wrapper {
