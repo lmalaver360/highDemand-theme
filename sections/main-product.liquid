@@ -252,47 +252,67 @@
                 {{- block.settings.text -}}
               </a>
             {%- when 'share' -%}
-              <share-button
-                id="Share-{{ section.id }}"
-                class="share-button quick-add-hidden"
-                {{ block.shopify_attributes }}
-              >
-                <button class="share-button__button hidden">
-                  {% render 'icon-share' %}
-                  {{ block.settings.share_label | escape }}
-                </button>
-                <details id="Details-{{ block.id }}-{{ section.id }}">
-                  <summary class="share-button__button">
+              <div class="product-share-socialMedia">
+                <share-button
+                  id="Share-{{ section.id }}"
+                  class="share-button quick-add-hidden"
+                  {{ block.shopify_attributes }}
+                >
+                  <button class="share-button__button hidden">
                     {% render 'icon-share' %}
                     {{ block.settings.share_label | escape }}
-                  </summary>
-                  <div id="Product-share-{{ section.id }}" class="share-button__fallback motion-reduce">
-                    <div class="field">
-                      <span id="ShareMessage-{{ section.id }}" class="share-button__message hidden" role="status">
-                      </span>
-                      <input
-                        type="text"
-                        class="field__input"
-                        id="url"
-                        value="{{ product.selected_variant.url | default: product.url | prepend: request.origin }}"
-                        placeholder="{{ 'general.share.share_url' | t }}"
-                        onclick="this.select();"
-                        readonly
-                      >
-                      <label class="field__label" for="url">{{ 'general.share.share_url' | t }}</label>
+                  </button>
+                  <details id="Details-{{ block.id }}-{{ section.id }}">
+                    <summary class="share-button__button">
+                      {% render 'icon-share' %}
+                      {{ block.settings.share_label | escape }}
+                    </summary>
+                    <div id="Product-share-{{ section.id }}" class="share-button__fallback motion-reduce">
+                      <div class="field">
+                        <span id="ShareMessage-{{ section.id }}" class="share-button__message hidden" role="status">
+                        </span>
+                        <input
+                          type="text"
+                          class="field__input"
+                          id="url"
+                          value="{{ product.selected_variant.url | default: product.url | prepend: request.origin }}"
+                          placeholder="{{ 'general.share.share_url' | t }}"
+                          onclick="this.select();"
+                          readonly
+                        >
+                        <label class="field__label" for="url">{{ 'general.share.share_url' | t }}</label>
+                      </div>
+                      <button class="share-button__close hidden no-js-hidden">
+                        {% render 'icon-close' %}
+                        <span class="visually-hidden">{{ 'general.share.close' | t }}</span>
+                      </button>
+                      <button class="share-button__copy no-js-hidden">
+                        {% render 'icon-clipboard' %}
+                        <span class="visually-hidden">{{ 'general.share.copy_to_clipboard' | t }}</span>
+                      </button>
                     </div>
-                    <button class="share-button__close hidden no-js-hidden">
-                      {% render 'icon-close' %}
-                      <span class="visually-hidden">{{ 'general.share.close' | t }}</span>
-                    </button>
-                    <button class="share-button__copy no-js-hidden">
-                      {% render 'icon-clipboard' %}
-                      <span class="visually-hidden">{{ 'general.share.copy_to_clipboard' | t }}</span>
-                    </button>
-                  </div>
-                </details>
-              </share-button>
+                  </details>
+                </share-button>
+                <div class="list-social__item">
+                  <a href="//twitter.com/share?text=blog&amp;url={{ product.selected_variant.url | default: product.url | prepend: request.origin }}" class="link list-social__link">
+                    {%- render 'icon-twitter' -%}
+                    <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
+                  </a>
+                </div>
+                <div class="list-social__item">
+                  <a href="//www.instagram.com/share?u={{ product.selected_variant.url | default: product.url | prepend: request.origin }}&amp;media={{ product.images | image_url: width: 350 }}&amp;description=blog" class="link list-social__link">
+                    {%- render 'icon-instagram' -%}
+                    <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+                  </a>
+                </div>
+                <div class="list-social__item">
+                    <a href="//www.facebook.com/sharer.php?u={{ product.selected_variant.url | default: product.url | prepend: request.origin }}" class="link list-social__link">
+                      {%- render 'icon-facebook' -%}
+                      <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                    </a>
+                </div>
 
+              </div>
               <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
             {%- when 'variant_picker' -%}
               {%- unless product.has_only_default_variant -%}
