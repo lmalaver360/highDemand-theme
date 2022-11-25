@@ -118,6 +118,7 @@
         "media_size": "large",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
+        "show_breadcrumbs": true,
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -129,6 +130,7 @@
       "settings": {
         "heading": "MORE IN THIS COLLECTION",
         "heading_size": "h1",
+        "heading_alignment": "center",
         "products_to_show": 5,
         "columns_desktop": 5,
         "color_scheme": "background-1",
