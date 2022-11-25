@@ -1573,6 +1573,9 @@
         "show_secondary_image": {
           "label": "Show second image on hover"
         },
+        "show_breadcrumbs": {
+          "label": "Show breadcrumbs"
+        },
         "show_vendor": {
           "label": "Show vendor"
         },
@@ -2211,6 +2214,9 @@
           "options__3": {
             "label": "Hide thumbnails"
           }
+        },
+        "show_breadcrumbs": {
+          "label": "Show breadcrumbs"
         },
         "hide_variants": {
           "label": "Hide other variants’ media after selecting a variant"

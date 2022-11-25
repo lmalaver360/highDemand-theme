@@ -472,6 +472,11 @@ noscript .localization-selector.link {
     padding: 0;
   }
 
+  .footer-block__details-content p a{
+    color: white;
+    text-decoration: none
+  }
+
   .footer-block:only-child li {
     display: inline;
   }
@@ -483,7 +488,7 @@ noscript .localization-selector.link {
 
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
-  color: rgba(var(--color-foreground), 0.75);
+  color: white
 }
 
 .footer-block__details-content .list-menu__item--active {
@@ -521,6 +526,7 @@ noscript .localization-selector.link {
 
   .footer-block__details-content > :first-child .list-menu__item--link {
     /*padding-top: 0;*/
+    
   }
 }
 
