@@ -3022,8 +3022,12 @@ details-disclosure > details {
 .highDemand-header{
   padding: 2rem clamp(1rem, 3.5vw, 4rem) 0 !important;
     position: relative;
-}
-
+  }
+  @media screen  and (max-width: 989px){
+    .highDemand-header{
+      padding-bottom: 1rem !important;
+    }
+  }
 .highDemand-header .list-menu__item{
   /* //font-size: 2rem; */
   font-size: 13px;

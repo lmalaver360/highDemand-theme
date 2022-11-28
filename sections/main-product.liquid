@@ -294,19 +294,19 @@
                   </details>
                 </share-button>
                 <div class="list-social__item">
-                  <a href="//twitter.com/share?text=blog&amp;url={{ product.selected_variant.url | default: product.url | prepend: request.origin }}" class="link list-social__link">
+                  <a target="_blank" href="//twitter.com/intent/tweet?url={{ product.selected_variant.url | default: product.url | prepend: request.origin }}" class="link list-social__link">
                     {%- render 'icon-twitter' -%}
                     <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
                   </a>
                 </div>
                 <div class="list-social__item">
-                  <a href="//www.instagram.com/share?u={{ product.selected_variant.url | default: product.url | prepend: request.origin }}&amp;media={{ product.images | image_url: width: 350 }}&amp;description=blog" class="link list-social__link">
+                  <a target="_blank" href="//www.instagram.com/?url={{ product.selected_variant.url | default: product.url | prepend: request.origin }}" class="link list-social__link">
                     {%- render 'icon-instagram' -%}
                     <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
                   </a>
                 </div>
                 <div class="list-social__item">
-                    <a href="//www.facebook.com/sharer.php?u={{ product.selected_variant.url | default: product.url | prepend: request.origin }}" class="link list-social__link">
+                    <a target="_blank" href="//www.facebook.com/sharer.php?u={{ product.selected_variant.url | default: product.url | prepend: request.origin }}" class="link list-social__link">
                       {%- render 'icon-facebook' -%}
                       <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
                     </a>
