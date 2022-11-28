@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 750px) {
   .customer:not(.account):not(.order) {
-    max-width: 47.8rem;
+    max-width: 52.8rem;
   }
 }
 
@@ -666,6 +666,7 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: baseline;
   column-gap: 5rem;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 990px){
