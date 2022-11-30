@@ -116,7 +116,7 @@
         "media_position": "left",
         "gallery_layout": "stacked",
         "media_size": "large",
-        "image_zoom": "hover",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "show_breadcrumbs": true,
         "hide_variants": true,
