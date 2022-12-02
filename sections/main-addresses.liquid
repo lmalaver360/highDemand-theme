@@ -1,4 +1,5 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
+{{ 'component-breadcrumbs.css' | asset_url | stylesheet_tag }}
 
 <script src="{{ 'customer.js' | asset_url }}" defer></script>
 
@@ -18,6 +19,9 @@
 
 {%- paginate customer.addresses by 5 -%}
   <div class="page-width">
+    {% render 'breadcrumbs'
+     , collection_type : false
+     %}
     <div class="customer addresses section-{{ section.id }}-padding" data-customer-addresses>
       <svg style="display: none">
         <symbol id="icon-caret" viewBox="0 0 10 6">
