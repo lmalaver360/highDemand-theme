@@ -6,9 +6,11 @@
       <li class="breadcrumbs__item">
         <a class="breadcrumbs__link" href="/">Home</a>
       </li>
-      <li class="breadcrumbs__item">
-        <a class="breadcrumbs__link" href="/collections">Collections</a>
-      </li>
+      {% if collection_type %}
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link" href="/collections">Collections</a>
+        </li>
+      {% endif %}
       {%- case t -%}
         {%- when 'page' -%}
           <li class="breadcrumbs__item">

@@ -78,7 +78,7 @@
 
   {%- if section.settings.show_breadcrumbs -%}
     <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
-    {% render 'breadcrumbs' %}
+    {% render 'breadcrumbs', collection_type : true %}
     </div>
   
   {%- endif -%}

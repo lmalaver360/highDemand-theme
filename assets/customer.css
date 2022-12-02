@@ -1,14 +1,14 @@
 .customer:not(.account):not(.order) {
   /* margin: 0 auto; */
   max-width: 33.4rem;
-  padding-left: 1.5rem;
+  /* padding-left: 1.5rem; */
   padding-right: 1.5rem;
   /* text-align: center; */
 }
 
 @media screen and (min-width: 750px) {
   .customer:not(.account):not(.order) {
-    max-width: 52.8rem;
+    max-width: 40vw;
   }
 }
 
@@ -342,7 +342,7 @@
 }
 
 .login .field + a {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .login p {
@@ -357,6 +357,13 @@
 
 #customer_login_guest button {
   margin-top: 0;
+}
+
+h1#login, h1#create-account, h1#recover {
+  border-bottom: 1px solid #F3F3F3;
+  padding-bottom: 1rem;
+  font-family: proxima-nova, sans-serif !important;
+  letter-spacing: 0;
 }
 
 #recover,
@@ -800,4 +807,8 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7),
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
+}
+
+.register{
+  margin-top: 63px;
 }
