@@ -15,6 +15,10 @@
 .customer > h1,
 .customer__title {
   margin-top: 0;
+  border-bottom: 1px solid #F3F3F3;
+  padding-bottom: 1rem;
+  font-family: proxima-nova, sans-serif !important;
+  letter-spacing: 0;
 }
 
 .customer form {
