@@ -363,7 +363,7 @@
   margin-top: 0;
 }
 
-h1#login, h1#create-account, h1#recover {
+h1#login, h1#create-account, h1#recover, #addresses {
   border-bottom: 1px solid #F3F3F3;
   padding-bottom: 1rem;
   font-family: proxima-nova, sans-serif !important;
@@ -670,7 +670,10 @@ h1#login, h1#create-account, h1#recover {
   width: 100%;
   max-width: 100% !important;
 }
-
+.addresses-grid{
+  border-bottom: 1px solid #F3F3F3;
+  padding-bottom: 3rem;
+}
 .addresses .addresses-grid{
   width: 100%;
   display: grid;
