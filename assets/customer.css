@@ -695,12 +695,12 @@ h1#login, h1#create-account, h1#recover, #addresses {
 .addresses .addresses-grid .addresses-grid--btn{
 grid-column: 3;
 width: max-content;
-    margin: 0 auto;
+margin: 0 auto;
 }
 
 .addresses .addresses-grid .addresses-grid--form{
-    grid-column: 2;
-    grid-row: 1
+    grid-column: 2 / 4;
+    grid-row: 2;
 }
 
 .edit-address-form{
