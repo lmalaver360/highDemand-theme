@@ -30,13 +30,14 @@
       </svg>
 
       <div data-address class="addresses-grid">
-        <h1 id="addresses">{{ 'customer.addresses.title' | t }}</h1>
-        <a href="{{ routes.account_url }}">
+        <h1 id="addresses" class="addresses-grid--title">{{ 'customer.addresses.title' | t }}</h1>
+        <a href="{{ routes.account_url }}" class="addresses-grid--link">
           {{ 'customer.account.return' | t }}
         </a>
         <button class="button button--small addresses-grid--btn" type="button" aria-expanded="false" aria-controls="AddAddress">
           {{ 'customer.addresses.add_new' | t }}
         </button>
+        <div class="addresses-grid--border"></div>
         <div id="AddAddress" class="addresses-grid--form">
           <h2 id="AddressNewHeading">{{ 'customer.addresses.add_new' | t }}</h2>
           {%- form 'customer_address', customer.new_address, aria-labelledBy: 'AddressNewHeading' -%}
